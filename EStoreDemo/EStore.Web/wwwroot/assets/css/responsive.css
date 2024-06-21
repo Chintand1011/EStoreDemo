@@ -1,0 +1,495 @@
+/**=====================
+     Responsive CSS Start
+==========================**/
+/* ========= min and max scss for 1200 to 1366 screen ========= */
+@media only screen and (max-width: 1199.98px) {
+  .page-wrapper .page-header .header-wrapper .nav-right {
+    position: unset;
+    padding: 0;
+  }
+  .view-profile .gallery {
+    flex-wrap: wrap;
+  }
+  .view-profile .gallery img {
+    max-width: 60px;
+    margin-bottom: 2px;
+  }
+  .md-sidebar .md-sidebar-toggle {
+    display: block;
+  }
+  .md-sidebar .md-sidebar-aside {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+    width: 280px;
+  }
+  .md-sidebar .job-sidebar {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+  }
+  .md-sidebar .md-sidebar-aside.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  .business-accordion .card .card-body {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .page-wrapper.compact-wrapper .page-body-wrapper .page-body {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .page-wrapper .page-header .header-wrapper .nav-right .profile-dropdown {
+    top: 50px;
+  }
+  .page-wrapper.compact-wrapper .page-header {
+    margin-left: 0 !important;
+    width: calc(100% - 0px) !important;
+  }
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .header-logo-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .toggle-sidebar {
+    display: block !important;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(48, 126, 243, 0.2);
+    position: unset;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .result-block .action-btns {
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  .search-area.s-results .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .leaderboard .leaderboard-block,
+  .leaderboard .leaderboard-block.first {
+    flex: 0 0 100%;
+    width: 100%;
+    gap: 45px;
+  }
+}
+@media only screen and (max-width: 991.98px) and (max-width: 630px) {
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .toggle-sidebar {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .toggle-sidebar:before {
+    display: none;
+  }
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .toggle-nav {
+    display: none;
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper {
+    top: 0;
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper.close_icon:hover {
+    -webkit-transform: translate(-285px);
+    transform: translate(-285px);
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-wrapper {
+    padding: 17px 30px;
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-wrapper .back-btn {
+    display: inline-block;
+    float: right;
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links {
+    height: calc(100vh - 95px);
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper.close_icon {
+    -webkit-transform: translate(-285px);
+    transform: translate(-285px);
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper.close_icon .sidebar-main .sidebar-links {
+    height: unset;
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper .page-body {
+    margin-top: 60px;
+    padding: 0 15px;
+  }
+  .page-wrapper .page-header .header-wrapper {
+    margin: 0;
+    padding: 12px 30px;
+  }
+  .page-wrapper .page-header .header-wrapper .header-logo-wrapper {
+    margin-right: 0;
+  }
+  .page-wrapper .page-header .header-logo-wrapper .logo-wrapper img {
+    margin-top: 0;
+  }
+  .page-body-wrapper .page-body {
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .page-wrapper .page-header .header-wrapper .nav-right > ul > li .profile-media .flex-grow-1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .card .card-body {
+    padding: 12px;
+  }
+  .profile-media .flex-grow-1 {
+    display: none;
+  }
+  .fav-profiles .fav-list .f-profile-card {
+    width: 100%;
+  }
+  .card-body.chat-list,
+  .card-body.fav-profiles {
+    height: 100%;
+  }
+  .favourites .post-block .post-footer {
+    flex-direction: column;
+  }
+  .favourites .post-block {
+    padding: 10px;
+  }
+  .favourites .tab-content {
+    padding: 0;
+  }
+  .favourites .f-profile-card {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .favourites .post-footer .profile-block .p-footer {
+    margin-top: 10px;
+  }
+  .profile-block {
+    padding: 15px;
+  }
+  .profile-block .p-footer .btn {
+    padding: 5px;
+  }
+  .profile-block .p-footer {
+    margin-top: 10px;
+  }
+  .profile-block .p-header {
+    padding-bottom: 10px;
+  }
+  .settings .nav-pills .nav-link,
+  .favourites .nav-pills .nav-link {
+    min-width: auto;
+    padding: 8px 16px;
+  }
+  .settings .sub-plan-details .sub-p-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .settings .sub-plan-details .sub-info,
+  .settings .payment-method .payment-info {
+    padding: 15px;
+  }
+  .settings .sub-plan-details .sub-info .header-details,
+  .settings .payment-method .pm-header {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .settings .sub-plan-details .sub-p-details,
+  .settings .payment-method .payment-info .p-method,
+  .settings .payment-method .payment-info {
+    flex-wrap: wrap;
+  }
+  .settings .payment-method .payment-info .p-method img {
+    width: 32px;
+  }
+  .settings .payment-method .payment-info .p-method p {
+    font-size: 14px !important;
+  }
+  .settings .sub-plan-details .sub-p-details > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .settings .sub-plan-details,
+  .settings .payment-method {
+    margin-bottom: 40px;
+  }
+  .settings .tab-content,
+  .favourites .tab-content {
+    padding: 0;
+  }
+  .profile-block h6 {
+    font-size: 16px;
+  }
+  .profile-block .user-img {
+    width: 42px;
+    height: 42px;
+  }
+  .settings .sub-plan-details .sub-info .header-details h2 {
+    font-size: 22px;
+  }
+  .settings .sub-plan-details .sub-info .header-details img {
+    width: 40px;
+    height: 40px;
+  }
+  .settings .nav-pills .nav-link,
+  .settings .delete-acc {
+    width: 100%;
+  }
+  .settings .nav-pills {
+    display: block;
+  }
+  .card.settings .card-body > div {
+    flex-wrap: wrap;
+  }
+  .profile-steps > .card-body {
+    padding: 0;
+  }
+  .client-bs-listing label + .input-group.w-25 {
+    flex: 0 0 30%;
+  }
+  .view-profile .gallery img {
+    max-width: 40px;
+  }
+  .view-profile .accordion .accordion-header .p-header-info {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .view-profile .nav-pills .nav-item {
+    width: 100%;
+  }
+  .view-profile .nav-pills .nav-link {
+    border: 1px solid;
+  }
+  #charts-tab {
+    margin-top: 20px;
+  }
+  .view-profile #cee-tab {
+    width: 100%;
+  }
+  .view-profile #cee-tab-tabContent {
+    padding: 24px 0 0;
+  }
+  .carousel-item {
+    height: 300px; /* Adjust height as needed */
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 10%;
+  }
+  .BDO-box .BDO-actions {
+    flex-direction: column;
+  }
+  .review-box {
+    margin-bottom: 10px;
+  }
+  .result-block .rb-body .col {
+    flex: 0 0 auto !important;
+    margin-bottom: 10px;
+  }
+  .result-block .rb-body .action-btns .btn {
+    display: flex;
+  }
+  .search-view .result-block .rb-header {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .search-area.s-results .search-bar {
+    flex-direction: column;
+  }
+  .new-BD-oppo .bd-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .new-BD-oppo p.info {
+    font-size: 16px;
+  }
+  .new-BD-oppo .footer-bar .btn {
+    margin-top: 20px;
+  }
+  .new-BD-oppo .bd-cards > div h3 {
+    font-size: 20px;
+  }
+  .new-BD-oppo .card {
+    min-height: auto;
+  }
+  .new-BD-oppo .bd-cards > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .new-BD-oppo .bd-cards.bd-regions {
+    flex-direction: row;
+    padding: 0;
+  }
+  .new-BD-oppo .business-landscape .vertical-text {
+    left: 14px;
+    top: 248px;
+  }
+  .leaderboard .leaderboard-block,
+  .leaderboard .leaderboard-block.first {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .page-wrapper .page-header .header-wrapper .nav-right ul li i {
+    font-size: 14px !important;
+  }
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .logo-wrapper {
+    display: none;
+  }
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .toggle-sidebar {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    border-right: 1px solid #ddd;
+    padding-right: 0;
+    margin-right: 8px;
+  }
+  .ptype-selections .form-check-inline {
+    width: 100%;
+    text-align: left;
+  }
+  .search-options > div {
+    padding: 0 5px !important;
+    margin-bottom: 8px;
+  }
+  .s-results-sortby .multichk-dropdown {
+    margin-bottom: 10px;
+  }
+  .verification .header-top {
+    height: auto;
+    align-items: flex-start;
+  }
+  .leaderboard .leaderboard-block,
+  .leaderboard .leaderboard-block.first {
+    flex-direction: column;
+  }
+  .leaderboard .leaderboard-block h3,
+  .leaderboard .leaderboard-block .business-avtar {
+    width: 100%;
+  }
+  .leaderboard .leaderboard-block .leader-info::before {
+    content: none;
+  }
+  .feedback .feedback-block .f-header .f-profile-card {
+    width: 100%;
+  }
+  .feedback .feedback-block .f-header .f-profile-card .sub {
+    max-width: 100%;
+    white-space: normal;
+  }
+}
+@media only screen and (max-width: 575.98px) and (max-width: 630px) {
+  .page-wrapper.compact-wrapper .page-header .header-wrapper .toggle-sidebar {
+    margin-right: 4px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .page-wrapper .page-header .header-wrapper {
+    padding: 12px 15px !important;
+  }
+  .page-wrapper .page-header .header-wrapper .nav-right > ul {
+    top: 58px;
+  }
+  .page-wrapper .page-header .header-wrapper .nav-right > ul li .profile-media img {
+    width: 25px;
+  }
+  .page-wrapper.compact-wrapper .page-body-wrapper .page-body {
+    margin-top: 53px;
+  }
+  .onhover-dropdown:hover .onhover-show-div {
+    opacity: 0;
+    -webkit-transform: none;
+    transform: none;
+    visibility: hidden;
+  }
+  .page-wrapper .page-header .header-wrapper .nav-right .onhover-show-div {
+    width: calc(100vw - 30px);
+    position: fixed;
+    top: 60px;
+    right: 12px;
+  }
+  .page-wrapper .page-header .header-wrapper .nav-right .profile-dropdown {
+    top: 43px;
+  }
+  .login-card .login-main .theme-form .or:before {
+    width: 55%;
+  }
+  .login-card {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .login-card .logo {
+    margin-bottom: 10px;
+  }
+  .login-card .login-main {
+    width: auto;
+    padding: 20px;
+  }
+  .login-card .login-main .theme-form .form-group {
+    margin-bottom: 5px;
+  }
+  .login-card .login-main .theme-form p {
+    margin-bottom: 5px;
+  }
+  .login-card .btn-showcase .btn {
+    width: 100%;
+  }
+  .login-card .btn-showcase .btn + .btn {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .carousel-item {
+    height: 350px;
+  }
+    .fav-profiles .nav-pills .nav-link{
+        width: 100%;
+    }
+    .fav-profiles ul li {
+        width: 50%;
+    }
+        .fav-profiles ul li:last-child {
+            border-radius: 0;
+            border-right: inherit;
+        }
+}
+@media only screen and (max-width: 480px) {
+  .page-wrapper .page-header .header-wrapper .nav-right .onhover-show-div {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .login-card .login-main .theme-form .link {
+    position: relative;
+    top: auto;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .sidebar-wrapper .back-btn {
+    display: none;
+  }
+}
+@media (width: 768px) and (height: 1024px) {
+  .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links {
+    height: calc(100vh - 210px);
+  }
+}
+/**=====================
+    Responsive CSS Ends
+==========================**/
